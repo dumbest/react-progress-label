@@ -51,9 +51,7 @@ class App extends Component {
   renderColor(name) {
     return (
       <div>
-        <span>
-          {name}
-        </span>
+        <span>{name}</span>
         <Color
           value={this.state[name]}
           onChange={() => this.handleColorChange(name)}
